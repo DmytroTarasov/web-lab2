@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Тарасов Д.С. група ІТ-91</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        table {
+            width: 50%;
+            font-size: 18px;
+            text-align: center;
+        }
+        tr { 
+            height: 50px;
+        }
+        td {
+            width: 25%;
+        }
+        tr:first-of-type > td:first-of-type, td:nth-of-type(2) {
+            width: 12.5%;
+        }
+        thead > tr:first-of-type {
+            background-color: #888f8f;
+            color: #fff;
+        }
+        thead > tr:nth-of-type(2) {
+            background-color: #f5f588;
+            color: #572aff;
+        }
+        thead > tr:first-of-type:hover {
+            background-color: #f5f588;
+            color: #572aff;
+            cursor: pointer;
+        }
+        thead > tr:nth-of-type(2):hover {
+            background-color: #888f8f;
+            color: #fff;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    
+    <h3>Завдання 1</h3>
+    <table border="1px" cellspacing="0">
+        <thead>
+            <tr>
+                <td></td>
+                <td></td>
+                <td rowspan="2">Тарасов</td>
+                <td>Дмитро</td>
+                <td rowspan="2">Сергійович</td>
+            </tr>
+            <tr>
+                <td colspan="2">ІТ-91</td>
+                <td>ЛР-2 Варіант 8</td>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td colspan="2"></td>
+                <td colspan="4"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Завдання 2</h3>
+    <div class="squares pos-relative">
+        <div class="squares__item pos-absolute"></div>
+        <div class="squares__item pos-absolute lift"></div>
+    </div>
+
+    <div class="squares">
+        <div class="squares__item"></div>
+        <div class="squares__item transform"></div>
+    </div>
+
+</body>
+</html>

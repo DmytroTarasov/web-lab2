@@ -1,0 +1,38 @@
+.pos-relative {
+    position: relative;
+}
+
+.pos-absolute {
+    position: absolute;
+}
+
+.lift {
+    top: 33%;
+    left: 33%;
+}
+
+.transform {
+    transform: translate(50%, -50%);
+}
+
+.squares {
+    margin-top: 30px;
+    height: 160px;
+    width: 160px;
+}
+
+.squares__item {
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    border: 4px double #000;
+    opacity: 0.6;
+}
+
+.squares__item:first-of-type {
+    background-color: #e57632;
+}
+
+.squares__item:nth-of-type(2) {
+    background-color: #be8488;
+}
